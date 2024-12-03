@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Корзина</title>
+    <script>
+        let cart = [];
+        function addToCart(item) {
+            cart.push(item);
+            alert(`${item} додано до корзини!`);
+        }
+    </script>
+</head>
+<body>
+    <h1>Товари</h1>
+    <button onclick="addToCart('Товар 1')">Додати Товар 1</button>
+    <button onclick="addToCart('Товар 2')">Додати Товар 2</button>
+    <p>Корзина працює локально без збереження даних на сервері.</p>
+</body>
+</html>
